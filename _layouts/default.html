@@ -4,7 +4,6 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <base target='_blank'/>
-        <link type="text/css" rel="stylesheet" href="{{ side.baseurl }}/assets/default.css">
         <title>{{ page.title }}</title>
         <script>
 
@@ -14,9 +13,10 @@ if ((host == window.location.host) && (window.location.protocol != "https:"))
 
         </script>
     </head>
-    <body>
+    
+    <body style="width: 50%;margin: 0 auto">
         <header>
-        <h1>{{ page.title }}</h1>
+        <h1 style="text-align: center;">{{ page.title }}</h1>
         </header>
 
         <hr>
@@ -29,7 +29,7 @@ if ((host == window.location.host) && (window.location.protocol != "https:"))
 
         <hr>
 
-        <footer>
+        <footer style="text-align: center;font-size: 0.8em">
             2015 - {{ site.time | date:"%Y" }} © <a href="/" target="_self">SilverRainZ</a> | Powered by <a href="http://jekyllrb.com/">Jekyll</a>
         </footer>
     </body>
