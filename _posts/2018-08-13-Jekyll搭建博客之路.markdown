@@ -35,9 +35,12 @@ categories: jekyll update
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;assets 辅助资源 css布局 js脚本 图片等
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_data 动态数据
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_sites  最终生成的静态网页
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;index.html  博客首页
 <br>
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;而对于一个静态网站，首先我们要有的便是整个网站的整体结构框架，通过编辑_layouts目录下的default.html文件，定义了整个博客的模板框架，其样式布局定义assets文件下的default.css中。在文件由于这只是刚刚开始博客的建设，所以没有设置太过于复杂的样式。
 <img src="https://xukaizhong188.github.io/xukaizhong.github.io/assets/postImages/pic2.jpg" width = "100%" height = "50%"  />
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;有了整体的模板布局，接下来便是首页的制定了，通过编辑项目中的index.html文件来编写博客的首页。
+<img src="https://xukaizhong188.github.io/xukaizhong.github.io/assets/postImages/pic3.jpg" width = "100%" height = "50%"  />
 <h3>3.3、遇到的问题</h3>
 <h4>3.3.1、Git无法打开</h4>
 <h4>3.3.2、点击博客无法进入访问此网站</h4>
