@@ -1,19 +1,21 @@
 ---
-title: XKZ BLOG
 layout: default
+title: XKZ BLOG
 ---
 
 链接
 -----
 
 [博客]()
-| [标签]()
+|[标签]()
 
 
 文章
 --------
+{% for post in site.posts %}
+- {{ post.date | date_to_string }} <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+{% endfor %}
 
-- [我的第一篇博客](): 使用Jekyll在GitHub搭建博客
 
 
 关于我&联系方式
