@@ -1,0 +1,23 @@
+---
+layout: default
+title:  "Jekyll搭建博客之路之最简单的博客!"
+date:   2018-08-13 15:00:00 +0800
+categories: jekyll update
+---
+<h2>一、搭建起因</h2>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;作为一名程序员，要学习的东西越来越多，对于刚刚工作的我，着实需要将自己所掌握的和所需要掌握的知识统一进行整理归纳，所以便拥有了搭建一个属于自己的博客的需求。	
+<h2>二、前期准备</h2>
+<h2>三、搭建历程</h2>
+<h3>3.1、成果展示</h3>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;废话不多说，直接上图。
+<img src="http:/assets/postImages/pic1.jpg" width = "100%" height = "50%"  />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;由于内心充满了野心，所以作为博客小白的我决定从零做起，不采用任何主题，后续将更新自己的博客搭建之路，让自己的博客逐渐丰富起来。
+<h3>3.2、遇到的问题</h3>
+<h4>3.2.1、Git无法打开</h4>
+<h4>3.2.2、点击博客无法进入访问此网站</h4>
+<h4>3.2.3、添加图片</h4>
+<h4>3.2.3、书写问题</h4>
+
+[jekyll-docs]: https://jekyllrb.com/docs/home
+[jekyll-gh]:   https://github.com/jekyll/jekyll
+[jekyll-talk]: https://talk.jekyllrb.com/
