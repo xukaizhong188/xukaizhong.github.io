@@ -10,7 +10,7 @@ categories: jekyll update
 <h2>三、搭建历程</h2>
 <h3>3.1、成果展示</h3>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;废话不多说，直接上图。
-<img src="http:/assets/postImages/pic1.jpg" width = "100%" height = "50%"  />
+<img src="http:{{ site.baseurl }}/assets/postImages/pic1.jpg" width = "100%" height = "50%"  />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;由于内心充满了野心，所以作为博客小白的我决定从零做起，不采用任何主题，后续将更新自己的博客搭建之路，让自己的博客逐渐丰富起来。
 <h3>3.2、遇到的问题</h3>
 <h4>3.2.1、Git无法打开</h4>
