@@ -6,29 +6,21 @@
         <base target='_blank'/>
         <title>{{ page.title }}</title>
         <script>
-
 var host = "{{ site.domain }}";
 if ((host == window.location.host) && (window.location.protocol != "https:"))
     window.location.protocol = "https";
-
         </script>
     </head>
-
     <body style="width: 50%;margin: 0 auto;">
         <header>
         <h1 style="text-align: center;">{{ page.title }}</h1>
         </header>
-
         <hr>
-
         <nav></nav>
-
         <section >
             {{ content | markdownify }}
         </section>
-
         <hr>
-
         <footer style="text-align: center;font-size: 0.8em">
             2018 - {{ site.time | date:"%Y" }} © <a href="/" target="_self">XuKaizhong</a> | Powered by <a href="http://jekyllrb.com/">Jekyll</a>
         </footer>
