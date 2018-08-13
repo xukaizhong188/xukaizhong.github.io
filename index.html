@@ -9,13 +9,11 @@ title: XKZ BLOG
 [博客]()
 |[标签]()
 
-
 文章
 --------
 {% for post in site.posts %}
-- {{ post.date | date_to_string }} <a href="../{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+- {{ post.date | date_to_string }} <a href="..{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
 {% endfor %}
-
 
 
 关于我&联系方式
