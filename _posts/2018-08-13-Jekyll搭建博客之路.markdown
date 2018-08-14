@@ -56,6 +56,7 @@ categories: jekyll update
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;在首页中点击我们的博客，提示无法访问此网站.如图
 <br><img src="https://xukaizhong188.github.io/xukaizhong.github.io/assets/postImages/pic7.jpg" width = "50%" height = "25%"  />
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;这样的错误发生在了本地，但是在git上并没有这样的错误。通过比较本地和git的url地址发现，本地地址：http://jekyll/update/2018/08/13/Jekyll%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2%E4%B9%8B%E8%B7%AF.html缺少了IP地址和端口号,所以访问不到。这样在我们的首页加载博客地址的a标签，重新修改即可。
+
 <h4>3.3.4、添加图片</h4>
 <h4>3.3.5、书写问题</h4>
 
