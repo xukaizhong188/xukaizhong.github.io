@@ -22,7 +22,7 @@ categories: jekyll update
 <h3>3.1、成果展示</h3>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;废话不多说，直接上图。
 <img src="https://xukaizhong188.github.io/xukaizhong.github.io/assets/postImages/pic1.jpg" width = "100%" height = "50%"  />
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;由于内心充满了野心，所以作为博客小白的我决定从零做起，不采用任何主题，后续将更新自己的博客搭建之路，让自己的博客逐渐丰富起来。
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;出于学习的目的，所以作为博客小白的我决定从零做起，不采用任何主题，后续将更新自己的博客搭建之路，让自己的博客逐渐丰富起来。
 <h3>3.2、开始搭建</h3>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;对于使用Jekyll搭建博客的教程，现在网上有很多，这里只介绍自己的开发及思考过程，
 <h4>3.2.1、项目分析</h4>
@@ -56,7 +56,6 @@ categories: jekyll update
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;在首页中点击我们的博客，提示无法访问此网站.如图
 <br><img src="https://xukaizhong188.github.io/xukaizhong.github.io/assets/postImages/pic7.jpg" width = "50%" height = "25%"  />
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;这样的错误发生在了本地，但是在git上并没有这样的错误。通过比较本地和git的url地址发现，本地地址：http://jekyll/update/2018/08/13/Jekyll%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2%E4%B9%8B%E8%B7%AF.html缺少了IP地址和端口号,所以访问不到。这样在我们的首页加载博客地址的a标签，重新修改即可。
-
 <h4>3.3.4、添加图片</h4>
 <h4>3.3.5、书写问题</h4>
 
