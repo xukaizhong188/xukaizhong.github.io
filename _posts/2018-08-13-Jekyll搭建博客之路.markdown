@@ -55,8 +55,12 @@ categories: jekyll update
 <h4>3.3.3、点击博客无法进入访问此网站</h4>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;在首页中点击我们的博客，提示无法访问此网站.如图
 <br><img src="https://xukaizhong188.github.io/xukaizhong.github.io/assets/postImages/pic7.jpg" width = "50%" height = "25%"  />
-<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;这样的错误发生在了本地，但是在git上并没有这样的错误。通过比较本地和git的url地址发现，本地地址：http://jekyll/update/2018/08/13/Jekyll%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2%E4%B9%8B%E8%B7%AF.html缺少了IP地址和端口号,所以访问不到。这样在我们的首页加载博客地址的a标签，重新修改即可。
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;这样的错误发生在了本地，但是在git上并没有这样的错误。通过比较本地和git的url地址发现，本地地址：http://jekyll/update/2018/...缺少了IP地址和端口号,所以访问不到。这样在我们的首页加载博客地址的a标签，重新修改即可。
 <h4>3.3.4、添加图片</h4>
-<h4>3.3.5、书写问题</h4>
-
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;在书写第一篇博客的时，也就是本文，给我最大的困扰之一便是如何在博客文章中插入图片，通过查阅资料可知，MarkDown支持嵌入html标签，那么有了html标签对于插入图片便十分简单了。我们只需要通过以下代码便可插入相应的图片，这里要注意图片的路径问题。
+<br>
+< img src="https://xxx/xxx/xxx/xxjpg" width = "50%" height = "25%"  />
+<br>
+<h4>3.3.5、文本编辑后样式出现变化</h4>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;在编写博客的时候，发现自己编写的内容在阅览过程中发生了样式的变化，后来发现，在编辑的时候，多了很多的空格，尤其是开头，删掉空格后问题解决。
 
