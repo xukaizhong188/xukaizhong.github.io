@@ -1,0 +1,17 @@
+---
+layout: default
+title:  "命令总结!"
+date:   2018-08-14 09:00:00 +0800
+categories: jekyll update
+---
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;此文处于不断更新中。。。
+<h2>一、MAC 操作命名</h2>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.defaults write com.apple.finder AppleShowAllFiles FALSE   设置隐藏文件不可见	
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.defaults write com.apple.finder AppleShowAllFiles TRUE   设置隐藏文件可见
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3.killall Finder  重启Finder 
+<h2>二、Git命令</h2>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<h2>三、Jekyll命令</h2>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+
