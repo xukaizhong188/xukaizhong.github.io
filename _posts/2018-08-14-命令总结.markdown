@@ -16,8 +16,9 @@ categories: jekyll update
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;第三列代表的是文件所有者的账号。
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;第四列代表的是文件所有者所在用户组
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;第五列代表的是这个文件的大小，默认单位是B。
-<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;第六列代表的这个文件的创建时间或者是最近的修改时间。
-
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;第六列代表的这个文件的创建时间或者是最近的修改时间。如果想要显示完整的时间格式，可以使用ls -l --full-time.
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;第七列代表的是该文件的文件名。注意，如果这个文件前面有一个.代表的是这个文件是一个隐藏文件。
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5.ls -a 查看当前路径下的所有文件（包括隐藏文件）。 
 <h2>二、Git命令</h2>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 <h2>三、Jekyll命令</h2>
