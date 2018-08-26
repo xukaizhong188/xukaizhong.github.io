@@ -20,9 +20,11 @@ categories: jekyll update
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;第七列代表的是该文件的文件名。注意，如果这个文件前面有一个.代表的是这个文件是一个隐藏文件。
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5.ls -a 查看当前路径下的所有文件（包括隐藏文件）。 
 <h2>二、Git命令</h2>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;git add .
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;git commit -m "" 
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;git push origin 
 <h2>三、Jekyll命令</h2>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;jekyll s jekyll服务启动
 
 
 
