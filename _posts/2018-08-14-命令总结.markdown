@@ -20,10 +20,18 @@ categories: jekyll update
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;第七列代表的是该文件的文件名。注意，如果这个文件前面有一个.代表的是这个文件是一个隐藏文件。
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5.ls -a 查看当前路径下的所有文件（包括隐藏文件）。 
 <h2>二、Git命令</h2>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;git add .
-<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;git commit -m "" 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;git push origin 
-<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;git init 在现有目录初始化仓库 
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;git init 在现有目录初始化仓库，该命令会常见一个名为.git的子目录，这个子目录包含初始化git仓库的所有必须文件。此时项目的文件还没有跟踪。
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+git add 实现对指定文件的跟踪/将已经跟踪的文件放到暂存区/在合并时将冲突的文件标记为已解决状态等。
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;git commit -m "" 提交
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;git clone 地址 克隆git仓库。
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;git statis 检查当前文件的状态
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+git diff 尚未暂存的文件更新了那些部分
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;git diff --staged(git diff --cached)已经暂存的将要添加到下次提交的内容。
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+git commit 提交更新
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;git commit -a 跳过暂存群自动吧所有已经跟踪的文件暂存起来并一并提交。跳过git add 步骤
 <h2>三、Jekyll命令</h2>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;jekyll s jekyll服务启动
 
