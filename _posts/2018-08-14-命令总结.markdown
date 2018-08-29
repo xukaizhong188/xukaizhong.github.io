@@ -23,6 +23,7 @@ categories: jekyll update
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;git add .
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;git commit -m "" 
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;git push origin 
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;git init 在现有目录初始化仓库 
 <h2>三、Jekyll命令</h2>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;jekyll s jekyll服务启动
 
