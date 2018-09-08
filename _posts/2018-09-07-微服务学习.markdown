@@ -1,0 +1,26 @@
+---
+layout: default
+title:  "2018-09-07-微服务学习!"
+date:   2018-09-07 10:00:00 +0800
+categories: jekyll update
+---
+<h2>一、微服务之间如何进行通讯</h2>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;从通讯协议上来讲可以选择REST API 、RPC、mq
+<h2>二、如何选择RPC框架</h2>
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1、需要考虑I/O 线程调度模型：到底是同步I/O,还是非阻塞的异步I/O  NIO，是长连接还是短连接。是单线程还是多线程
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2、序列化方式：是可读的还是二进制，可读的例如xml/json二进制的就是一种不可见的例如jdk自带的序列化就是二进制的。序列化的方式直接影响了rpc通讯之间的效率。
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3、多语言支持
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4、服务治理：例如是否有服务的发现，服务的监控。
+<h2>三、流行的RPC框架</h2>
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1、Dubbo
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2、Motan
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3、Thrift
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4、Dubbo
+<h2>四、服务的发现</h2>
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;服务发现的本质就是让服务的消费者知道服务的提供者的ip和端口号
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;传统的服务就是在nginx中将我们的服务的提供者的ip和端口号写死；
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;微服务的发现方式有两种一种是客户端的发现一种是服务端的发现，客服端的发现就是客服端通过向注册中心订阅服务，订阅中心返回服务提供者的ip和端口；服务端的发现就是服务注册到注册中心，客户端会访问一个具体的ip和端口，访问一个具有服务发现和负载均衡的服务。这个服务端其实就是维护了注册中心中的服务列表。
+<h2>五、服务的部署和扩容</h2>
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;服务发现的本质就是让服务的消费者知道服务的提供者的ip和端口号
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;传统的服务就是在nginx中将我们的服务的提供者的ip和端口号写死；
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;微服务的发现方式有两种一种是客户端的发现一种是服务端的发现，客服端的发现就是客服端通过向注册中心订阅服务，订阅中心返回服务提供者的ip和端口；服务端的发现就是服务注册到注册中心，客户端会访问一个具体的ip和端口，访问一个具有服务发现和负载均衡的服务。这个服务端其实就是维护了注册中心中的服务列表。
